@@ -1,0 +1,2108 @@
+{
+    "Easy": {
+        "Em que estado brasileiro nasceu a apresentadora Xuxa?": {
+            "a": "rio de janeiro",
+            "b": "rio grande do sul",
+            "c": "santa catarina",
+            "d": "goiás",
+            "answer": "b"
+        },
+        "Qual é o nome dado ao estado da água em forma de gelo?": {
+            "a": "líquido",
+            "b": "sólido",
+            "c": "gasoso",
+            "d": "vaporoso",
+            "answer": "b"
+        },
+        "Qual era o apelido da cantora Elis Regina?": {
+            "a": "gauchinha",
+            "b": "paulistinha",
+            "c": "pimentinha",
+            "d": "andorinha",
+            "answer": "c"
+        },
+        "Quem é a namorada do Mickey?": {
+            "a": "margarida",
+            "b": "minnie",
+            "c": "a pequena sereia",
+            "d": "olívia palito",
+            "answer": "b"
+        },
+        "Qual é o personagem do folclore brasileiro que tem uma perna só?": {
+            "a": "cuca",
+            "b": "negrinho do pastoreio",
+            "c": "boitatá",
+            "d": "saci-pererê",
+            "answer": "d"
+        },
+        "Fidel Castro nasceu em que país?": {
+            "a": "jamaica",
+            "b": "cuba",
+            "c": "el salvador",
+            "d": "méxico",
+            "answer": "b"
+        },
+        "Quem proclamou a república no Brasil em 1889?": {
+            "a": "duque de caxias",
+            "b": "marechal rondon",
+            "c": "dom pedro ii",
+            "d": "marechal deodoro",
+            "answer": "d"
+        },
+        "Quem é o patrono do exército brasileiro?": {
+            "a": "marechal deodoro",
+            "b": "barão de mauá",
+            "c": "duque de caxias",
+            "d": "marquês de pombal",
+            "answer": "c"
+        },
+        "Quem era o apresentador que reprovava os calouros tocando uma buzina?": {
+            "a": "raul gil",
+            "b": "bolinha",
+            "c": "flávio cavalcanti",
+            "d": "chacrinha",
+            "answer": "d"
+        },
+        "O que era Frankenstein, de Mary Shelley?": {
+            "a": "monstro",
+            "b": "gorila",
+            "c": "príncipe",
+            "d": "sapo",
+            "answer": "a"
+        },
+        "Qual é o signo do zodíaco de quem nasce no dia do ano-novo?": {
+            "a": "virgem",
+            "b": "aquário",
+            "c": "capricórnio",
+            "d": "áries",
+            "answer": "c"
+        },
+        "Quem fundou a fábrica de automóveis Ford?": {
+            "a": "harrison ford",
+            "b": "gerald ford",
+            "c": "henry ford",
+            "d": "anna ford",
+            "answer": "c"
+        },
+        "Qual é a cor que se associa com os grupos ecológicos?": {
+            "a": "preta",
+            "b": "vermelha",
+            "c": "azul",
+            "d": "verde",
+            "answer": "d"
+        },
+        "A água ferve a quantos graus centígrados?": {
+            "a": "200",
+            "b": "100",
+            "c": "170",
+            "d": "220",
+            "answer": "b"
+        },
+        "Quando é comemorado o dia da independência do Brasil?": {
+            "a": "21 de abril",
+            "b": "12 de outubro",
+            "c": "7 de setembro",
+            "d": "25 de dezembro",
+            "answer": "c"
+        },
+        "Qual lugar é também chamado de Santa Sé?": {
+            "a": "veneza",
+            "b": "vitória",
+            "c": "vancouver",
+            "d": "vaticano",
+            "answer": "d"
+        },
+        "Quem tem por lema a frase: \"Sempre alerta\"?": {
+            "a": "médicos",
+            "b": "escoteiros",
+            "c": "bombeiros",
+            "d": "policiais",
+            "answer": "b"
+        },
+        "Quem foi o grande amor de Julieta?": {
+            "a": "romeu",
+            "b": "orfeu",
+            "c": "hamlet",
+            "d": "iago",
+            "answer": "a"
+        },
+        "Quantos signos formam o zodíaco?": {
+            "a": "nove",
+            "b": "dez",
+            "c": "onze",
+            "d": "doze",
+            "answer": "d"
+        },
+        "Vatapá é uma comida típica de qual estado?": {
+            "a": "paraná",
+            "b": "santa catarina",
+            "c": "são paulo",
+            "d": "bahia",
+            "answer": "d"
+        },
+        "Como se chama o lugar onde são armazenadas as balas de um revólver?": {
+            "a": "cano",
+            "b": "tambor",
+            "c": "agulha",
+            "d": "gatilho",
+            "answer": "b"
+        },
+        "Qual personagem da turma da Mônica tem apenas cinco fios de cabelo?": {
+            "a": "mônica",
+            "b": "cebolinha",
+            "c": "cascão",
+            "d": "magali",
+            "answer": "b"
+        },
+        "Qual cantora tinha o apelido de \"Ternurinha\" na época da jovem guarda?": {
+            "a": "silvinha",
+            "b": "wanderléia",
+            "c": "gretchen",
+            "d": "martinha",
+            "answer": "b"
+        },
+        "O churrasco é considerado uma comida típica de qual estado?": {
+            "a": "ceará",
+            "b": "rio grande do sul",
+            "c": "pará",
+            "d": "maranhão",
+            "answer": "b"
+        },
+        "Qual cantor é o pai da dupla Sandy e Júnior?": {
+            "a": "leonardo",
+            "b": "xororó",
+            "c": "zezé di camargo",
+            "d": "chitãozinho",
+            "answer": "b"
+        },
+        "Quem foi o criador dos personagens Pedrinho, Narizinho e Emília?": {
+            "a": "maurício de sousa",
+            "b": "ziraldo",
+            "c": "monteiro lobato",
+            "d": "machado de assis",
+            "answer": "c"
+        },
+        "Quem fundou a Microsoft?": {
+            "a": "sultão de brunei",
+            "b": "akio morita",
+            "c": "bill gates",
+            "d": "príncipe charles",
+            "answer": "c"
+        },
+        "Qual é o nome dado ao pneu reserva do carro?": {
+            "a": "calota",
+            "b": "estepe",
+            "c": "macaco",
+            "d": "chave de roda",
+            "answer": "b"
+        },
+        "Qual é o nome do cachorro medroso do Salsicha, dos desenhos animados?": {
+            "a": "floquinho",
+            "b": "rin-tin-tin",
+            "c": "lassie",
+            "d": "scooby-doo",
+            "answer": "d"
+        },
+        "Quantas dentições naturais tem o ser humano durante a vida?": {
+            "a": "uma",
+            "b": "duas",
+            "c": "três",
+            "d": "quatro",
+            "answer": "b"
+        },
+        "Edinho, filho de Pelé, jogou no Santos em que posição?": {
+            "a": "zagueiro",
+            "b": "goleiro",
+            "c": "atacante",
+            "d": "armador",
+            "answer": "b"
+        },
+        "Qual é a pedra preciosa mais dura encontrada na natureza?": {
+            "a": "esmeralda",
+            "b": "rubi",
+            "c": "pérola",
+            "d": "diamante",
+            "answer": "d"
+        },
+        "Como se chama o lugar onde se guardam vinhos?": {
+            "a": "adega",
+            "b": "biblioteca",
+            "c": "sótão",
+            "d": "sala",
+            "answer": "a"
+        },
+        "Qual cantor ficou conhecido como \"o rei do rock\"?": {
+            "a": "frank sinatra",
+            "b": "little richard",
+            "c": "elvis presley",
+            "d": "richie valens",
+            "answer": "c"
+        },
+        "Quem é o inimigo do Piu-Piu nos desenhos animados?": {
+            "a": "félix",
+            "b": "tom",
+            "c": "frajola",
+            "d": "mingau",
+            "answer": "c"
+        },
+        "Joana Prado é o nome verdadeiro de qual artista?": {
+            "a": "tiazinha",
+            "b": "feiticeira",
+            "c": "lady lu",
+            "d": "sheila mello",
+            "answer": "b"
+        },
+        "Quantos dias tem um ano bissexto?": {
+            "a": "364",
+            "b": "365",
+            "c": "366",
+            "d": "367",
+            "answer": "c"
+        },
+        "Qual é o réptil que muda de cor conforme o lugar em que está?": {
+            "a": "sapo",
+            "b": "camaleão",
+            "c": "lagarto",
+            "d": "jacaré",
+            "answer": "b"
+        },
+        "Qual é a duração de cada tempo de uma partida de futebol?": {
+            "a": "45 minutos",
+            "b": "90 minutos",
+            "c": "120 minutos",
+            "d": "150 minutos",
+            "answer": "a"
+        },
+        "Onde fica o centro da indústria cinematográfica nos EUA?": {
+            "a": "nova york",
+            "b": "las vegas",
+            "c": "new orleans",
+            "d": "hollywood",
+            "answer": "d"
+        },
+        "Qual era o código da identidade secreta de James Bond?": {
+            "a": "7o7",
+            "b": "9o7",
+            "c": "oo8",
+            "d": "oo7",
+            "answer": "d"
+        },
+        "Qual é a fruta associada com a cidade de Laranjal?": {
+            "a": "melancia",
+            "b": "laranja",
+            "c": "maçã",
+            "d": "uva",
+            "answer": "b"
+        },
+        "Quantos centavos equivalem a um real?": {
+            "a": "dez",
+            "b": "mil",
+            "c": "cem",
+            "d": "cinquenta",
+            "answer": "c"
+        },
+        "De acordo com a Bíblia, qual era o \"fruto proibido\"?": {
+            "a": "mamão",
+            "b": "maçã",
+            "c": "uva",
+            "d": "abacaxi",
+            "answer": "b"
+        },
+        "Como é conhecida a ponte que liga Rio de Janeiro a Niterói?": {
+            "a": "golden gate",
+            "b": "rio-niterói",
+            "c": "rio são francisco",
+            "d": "brooklin",
+            "answer": "b"
+        },
+        "Em que ano os portugueses descobriram o Brasil?": {
+            "a": "1450",
+            "b": "1500",
+            "c": "1550",
+            "d": "1400",
+            "answer": "b"
+        },
+        "O que é medido por um termômetro?": {
+            "a": "longitude",
+            "b": "umidade",
+            "c": "temperatura",
+            "d": "latitude",
+            "answer": "c"
+        },
+        "O rio Amazonas pertence a qual continente?": {
+            "a": "americano",
+            "b": "africano",
+            "c": "europeu",
+            "d": "asiático",
+            "answer": "a"
+        },
+        "Quem esculpiu o boneco Pinóquio, no conto de Carlo Lorenzini?": {
+            "a": "gepeto",
+            "b": "fada",
+            "c": "bruxa",
+            "d": "gigante",
+            "answer": "a"
+        },
+        "Qual é a moeda oficial dos Estados Unidos?": {
+            "a": "escudo",
+            "b": "coroa",
+            "c": "dólar",
+            "d": "libra",
+            "answer": "c"
+        },
+        "Qual foi o placar no final da Copa de 98, quando o Brasil perdeu para a França?": {
+            "a": "dois a zero",
+            "b": "três a zero",
+            "c": "quatro a zero",
+            "d": "cinco a zero",
+            "answer": "b"
+        },
+        "Quantas folhas tem um trevo da sorte?": {
+            "a": "três",
+            "b": "quatro",
+            "c": "cinco",
+            "d": "seis",
+            "answer": "b"
+        },
+        "Qual é a cidade conhecida como \"terra da garoa\"?": {
+            "a": "rio de janeiro",
+            "b": "porto alegre",
+            "c": "piracicaba",
+            "d": "são paulo",
+            "answer": "d"
+        },
+        "Qual ator do cinema brasileiro é conhecido por ter unhas enormes?": {
+            "a": "penadinho",
+            "b": "zé do caixão",
+            "c": "zé do casarão",
+            "d": "toninho do diabo",
+            "answer": "b"
+        },
+        "O violoncelo é um tipo de instrumento de?": {
+            "a": "sopro",
+            "b": "cordas",
+            "c": "percussão",
+            "d": "repercussão",
+            "answer": "b"
+        },
+        "Com que fruta a Branca de Neve foi envenenada?": {
+            "a": "maçã",
+            "b": "pêra",
+            "c": "melão",
+            "d": "laranja",
+            "answer": "a"
+        },
+        "Quem foi técnico da Seleção brasileira de futebol na Copa de 98?": {
+            "a": "zagallo",
+            "b": "scolari",
+            "c": "luxemburgo",
+            "d": "carpegianni",
+            "answer": "a"
+        },
+        "Em que cidade é realizada a corrida de São Silvestre?": {
+            "a": "belo horizonte",
+            "b": "rio de janeiro",
+            "c": "são paulo",
+            "d": "salvador",
+            "answer": "c"
+        },
+        "Qual é a área da medicina que trata de crianças?": {
+            "a": "geriatria",
+            "b": "pediatria",
+            "c": "infantologia",
+            "d": "biologia",
+            "answer": "b"
+        },
+        "O saquê é uma bebida típica de qual país?": {
+            "a": "estados unidos",
+            "b": "japão",
+            "c": "coréia do sul",
+            "d": "china",
+            "answer": "b"
+        },
+        "O dromedário tem quantas corcovas?": {
+            "a": "uma",
+            "b": "duas",
+            "c": "três",
+            "d": "quatro",
+            "answer": "a"
+        },
+        "Um adulto sadio tem quantos dentes na boca?": {
+            "a": "18",
+            "b": "24",
+            "c": "32",
+            "d": "36",
+            "answer": "c"
+        },
+        "Qual dos sete anões usa óculos?": {
+            "a": "dunga",
+            "b": "zangado",
+            "c": "dengoso",
+            "d": "mestre",
+            "answer": "d"
+        },
+        "Quem é o Homem de Aço das histórias em quadrinhos?": {
+            "a": "batman",
+            "b": "huck",
+            "c": "he-man",
+            "d": "super-homem",
+            "answer": "d"
+        },
+        "Cavalo, rainha e torre são peças de qual jogo?": {
+            "a": "damas",
+            "b": "xadrez",
+            "c": "ludo",
+            "d": "dominó",
+            "answer": "b"
+        },
+        "Turmalina é uma espécie de quê?": {
+            "a": "flor",
+            "b": "fruto",
+            "c": "pedra",
+            "d": "verdura",
+            "answer": "c"
+        },
+        "Qual é o santo casamenteiro?": {
+            "a": "são pedro",
+            "b": "são paulo",
+            "c": "são joão",
+            "d": "santo antônio",
+            "answer": "d"
+        },
+        "Quem ocupou o cargo de Ministro da Saúde do Brasil no ano de 2000?": {
+            "a": "adib jatene",
+            "b": "josé serra",
+            "c": "ciro gomes",
+            "d": "pedro malan",
+            "answer": "b"
+        },
+        "Segundo a Bíblia, quem foi morto por Caim?": {
+            "a": "adão",
+            "b": "isaac",
+            "c": "abel",
+            "d": "abraão",
+            "answer": "c"
+        },
+        "Qual é o livro dividido em Velho Testamento e Novo Testamento?": {
+            "a": "bíblia",
+            "b": "enciclopédia",
+            "c": "dicionário",
+            "d": "atlas",
+            "answer": "a"
+        },
+        "Qual objeto é usado como arma pelo Pinguim do Batman?": {
+            "a": "guarda-chuva",
+            "b": "chapéu",
+            "c": "galocha",
+            "d": "capa",
+            "answer": "a"
+        },
+        "Qual ser mitológico possui o corpo metade mulher e metade peixe?": {
+            "a": "sereia",
+            "b": "medusa",
+            "c": "cleópatra",
+            "d": "serena",
+            "answer": "a"
+        },
+        "Qual foi o nome dado ao movimento liderado por Tiradentes?": {
+            "a": "revolução francesa",
+            "b": "guerra dos emboabas",
+            "c": "inconfidência mineira",
+            "d": "segunda guerra mundial",
+            "answer": "c"
+        },
+        "Qual é o país de origem do vinho champanha?": {
+            "a": "américa",
+            "b": "holanda",
+            "c": "frança",
+            "d": "suécia",
+            "answer": "c"
+        },
+        "Qual destes elementos se forma dentro das ostras?": {
+            "a": "diamante",
+            "b": "pérola",
+            "c": "rubi",
+            "d": "esmeralda",
+            "answer": "b"
+        },
+        "Quando é comemorado o dia da mentira no Brasil?": {
+            "a": "26 de dezembro",
+            "b": "7 de setembro",
+            "c": "1 de abril",
+            "d": "15 de novembro",
+            "answer": "c"
+        },
+        "Em que estado nasceu a cantora Elba Ramalho?": {
+            "a": "paraíba",
+            "b": "ceará",
+            "c": "bahia",
+            "d": "alagoas",
+            "answer": "a"
+        },
+        "Quando é comemorado o dia da criança?": {
+            "a": "12 de outubro",
+            "b": "1 de abril",
+            "c": "13 de maio",
+            "d": "9 de julho",
+            "answer": "a"
+        },
+        "De qual lugar o personagem Tarzan era considerado rei?": {
+            "a": "da selva",
+            "b": "da noite",
+            "c": "da tasmânia",
+            "d": "das mulheres",
+            "answer": "a"
+        },
+        "Quem é a mulher do Tarzan?": {
+            "a": "diana",
+            "b": "louis laine",
+            "c": "jane",
+            "d": "chita",
+            "answer": "c"
+        },
+        "Qual é o animal que puxa o trenó do Papai Noel?": {
+            "a": "cavalo",
+            "b": "rena",
+            "c": "touro",
+            "d": "jumento",
+            "answer": "b"
+        },
+        "Capixaba é quem nasce em qual estado brasileiro?": {
+            "a": "espírito santo",
+            "b": "rio grande do norte",
+            "c": "santa catarina",
+            "d": "paraná",
+            "answer": "a"
+        },
+        "Quantos titulares possui uma equipe de vôlei?": {
+            "a": "cinco",
+            "b": "seis",
+            "c": "sete",
+            "d": "oito",
+            "answer": "b"
+        },
+        "Qual é o profissional que conduz o elevador?": {
+            "a": "condutor",
+            "b": "operador",
+            "c": "ascensorista",
+            "d": "recepcionista",
+            "answer": "c"
+        },
+        "Segundo a Bíblia, quantos apóstolos tinha Jesus Cristo?": {
+            "a": "dez",
+            "b": "onze",
+            "c": "doze",
+            "d": "treze",
+            "answer": "c"
+        },
+        "Em qual país surgiu a máfia?": {
+            "a": "estados unidos",
+            "b": "inglaterra",
+            "c": "itália",
+            "d": "espanha",
+            "answer": "c"
+        },
+        "Qual é o profissional que usa o estetoscópio?": {
+            "a": "engenheiro",
+            "b": "mecânico",
+            "c": "médico",
+            "d": "aviador",
+            "answer": "c"
+        },
+        "Fernando Henrique Cardoso é formado em que área?": {
+            "a": "administração",
+            "b": "economia",
+            "c": "direito",
+            "d": "sociologia",
+            "answer": "d"
+        },
+        "Qual destes é considerado o mês das noivas?": {
+            "a": "setembro",
+            "b": "junho",
+            "c": "maio",
+            "d": "outubro",
+            "answer": "c"
+        },
+        "Quem inventou o telefone?": {
+            "a": "graham bell",
+            "b": "george washington",
+            "c": "thomas edison",
+            "d": "marconi",
+            "answer": "a"
+        },
+        "Qual é o esporte praticado com pequenos aviões de controle remoto?": {
+            "a": "automobilismo",
+            "b": "iatismo",
+            "c": "aeromodelismo",
+            "d": "atletismo",
+            "answer": "c"
+        },
+        "Qual é o significado da frase inglesa \"I love you\"?": {
+            "a": "bom-dia",
+            "b": "até logo",
+            "c": "eu amo você",
+            "d": "estou com fome",
+            "answer": "c"
+        },
+        "Qual personagem lidera o bando da floresta de Sherwood?": {
+            "a": "robin cook",
+            "b": "robin banks",
+            "c": "robin hood",
+            "d": "robin days",
+            "answer": "c"
+        },
+        "Qual é a cor da pedra rubi?": {
+            "a": "azul",
+            "b": "verde",
+            "c": "amarela",
+            "d": "vermelha",
+            "answer": "d"
+        },
+        "Qual é a planta que fortalece o marinheiro Popeye?": {
+            "a": "alface",
+            "b": "espinafre",
+            "c": "cenoura",
+            "d": "repolho",
+            "answer": "b"
+        },
+        "Quando é comemorado o dia de Santo Antônio?": {
+            "a": "12 de agosto",
+            "b": "11 de janeiro",
+            "c": "7 de setembro",
+            "d": "13 de junho",
+            "answer": "d"
+        },
+        "Qual era a profissão exercida por Lula, antes de ele ser presidente do PT?": {
+            "a": "engraxate",
+            "b": "pedreiro",
+            "c": "feirante",
+            "d": "metalúrgico",
+            "answer": "d"
+        },
+        "Quem foi o amor do imperador Marco Antônio?": {
+            "a": "sherazade",
+            "b": "lady godiva",
+            "c": "cleópatra",
+            "d": "julieta",
+            "answer": "c"
+        },
+        "Qual estação do ano fica entre o verão e o inverno?": {
+            "a": "verão",
+            "b": "outono",
+            "c": "inverno",
+            "d": "primavera",
+            "answer": "b"
+        },
+        "Como Joana d'Arc foi morta?": {
+            "a": "enforcada",
+            "b": "afogada",
+            "c": "queimada",
+            "d": "asfixiada",
+            "answer": "c"
+        }
+    },
+    "Medium": {
+        "Quantos jogadores um jogo de vôlei reúne na quadra?": {
+            "a": "seis",
+            "b": "oito",
+            "c": "dez",
+            "d": "doze",
+            "answer": "d"
+        },
+        "Qual é o país do tango?": {
+            "a": "uruguai",
+            "b": "argentina",
+            "c": "paraguai",
+            "d": "espanha",
+            "answer": "b"
+        },
+        "Que imperador pôs fogo em Roma?": {
+            "a": "trajano",
+            "b": "nero",
+            "c": "brutus",
+            "d": "calígula",
+            "answer": "b"
+        },
+        "A cidade de Pompéia, que foi soterrada por um vulcão fica em qual desses países?": {
+            "a": "japão",
+            "b": "méxico",
+            "c": "itália",
+            "d": "estados unidos",
+            "answer": "c"
+        },
+        "Como é chamado quem nasce em Milão, na Itália?": {
+            "a": "milanense",
+            "b": "milanoso",
+            "c": "milista",
+            "d": "milanês",
+            "answer": "d"
+        },
+        "Que profissional usa uma ferramenta chamada formão?": {
+            "a": "carpinteiro",
+            "b": "relojoeiro",
+            "c": "confeiteiro",
+            "d": "bombeiro",
+            "answer": "a"
+        },
+        "Em qual estádio Pelé marcou seu milésimo gol?": {
+            "a": "morumbi",
+            "b": "pacaembu",
+            "c": "maracanã",
+            "d": "mineirão",
+            "answer": "c"
+        },
+        "O que é um oboé?": {
+            "a": "vulcão",
+            "b": "comida",
+            "c": "instrumento musical",
+            "d": "tribo indígena",
+            "answer": "c"
+        },
+        "Como eram chamados os pilotos suicidas da Segunda Guerra?": {
+            "a": "camicases",
+            "b": "sashimis",
+            "c": "haraquiris",
+            "d": "sumôs",
+            "answer": "a"
+        },
+        "O que é gôndola?": {
+            "a": "embarcação",
+            "b": "brinquedo",
+            "c": "música",
+            "d": "símbolo",
+            "answer": "a"
+        },
+        "Sashimi é um prato originário de qual país?": {
+            "a": "japão",
+            "b": "china",
+            "c": "índia",
+            "d": "indonésia",
+            "answer": "a"
+        },
+        "Como é chamada a cantora que representa o papel principal em uma ópera?": {
+            "a": "primeira dama",
+            "b": "dona-prima",
+            "c": "prima-dona",
+            "d": "obra-prima",
+            "answer": "c"
+        },
+        "Peroba é uma espécie de?": {
+            "a": "inseto",
+            "b": "árvore",
+            "c": "verme",
+            "d": "verdura",
+            "answer": "b"
+        },
+        "O alpinismo é praticado em que lugar?": {
+            "a": "mar",
+            "b": "montanha",
+            "c": "rio",
+            "d": "praia",
+            "answer": "b"
+        },
+        "O Coliseu é um monumento histórico de que cidade européia?": {
+            "a": "paris",
+            "b": "copenhague",
+            "c": "roma",
+            "d": "londres",
+            "answer": "c"
+        },
+        "Qual é o ponto mais alto da Terra?": {
+            "a": "everest",
+            "b": "monte sinai",
+            "c": "monte castelo",
+            "d": "mont blanc",
+            "answer": "a"
+        },
+        "Que rio corta a cidade de Londres, na Inglaterra?": {
+            "a": "tâmisa",
+            "b": "sena",
+            "c": "reno",
+            "d": "aube",
+            "answer": "a"
+        },
+        "Qual é a raça do personagem principal do filme \"Beethoven\"?": {
+            "a": "fila",
+            "b": "pastor alemão",
+            "c": "poodle",
+            "d": "são-bernardo",
+            "answer": "d"
+        },
+        "Quem foi eleito presidente da África do Sul em 1994?": {
+            "a": "nelson piquet",
+            "b": "nelson mandela",
+            "c": "nelson ned",
+            "d": "john nelson",
+            "answer": "b"
+        },
+        "Qual cantor ficou conhecido como \"O rei da voz\"?": {
+            "a": "orlando silva",
+            "b": "vicente celestino",
+            "c": "francisco alves",
+            "d": "carlos galhardo",
+            "answer": "c"
+        },
+        "Quantos quilates tem o ouro puro?": {
+            "a": "18",
+            "b": "20",
+            "c": "24",
+            "d": "30",
+            "answer": "c"
+        },
+        "Qual é a sigla da Organização das Nações Unidas?": {
+            "a": "onu",
+            "b": "fmi",
+            "c": "cia",
+            "d": "otan",
+            "answer": "a"
+        },
+        "De quantos em quantos anos aparece o cometa Halley?": {
+            "a": "57 anos",
+            "b": "67 anos",
+            "c": "76 anos",
+            "d": "79 anos",
+            "answer": "c"
+        },
+        "Segundo a crença popular, a mula-sem-cabeça é mulher de quem?": {
+            "a": "do coroinha",
+            "b": "do padre",
+            "c": "do sacristão",
+            "d": "do bispo",
+            "answer": "b"
+        },
+        "Que atriz protagonizou o filme \"Titanic\"?": {
+            "a": "cameron diaz",
+            "b": "kate winslet",
+            "c": "bridget fonda",
+            "d": "catherine zetta jones",
+            "answer": "b"
+        },
+        "Como é chamada a doença que causa perda desigual da melanina?": {
+            "a": "astigmatismo",
+            "b": "tendinite",
+            "c": "vitiligo",
+            "d": "vitinga",
+            "answer": "c"
+        },
+        "Quem realizou a primeira cirurgia de ponte de safena no Brasil?": {
+            "a": "dr. zerbini",
+            "b": "dr. fritz",
+            "c": "dr. jatene",
+            "d": "dr. calligari",
+            "answer": "c"
+        },
+        "No filme, quem era parceiro de crimes da Bonnie?": {
+            "a": "bill",
+            "b": "clyde",
+            "c": "james",
+            "d": "butch",
+            "answer": "b"
+        },
+        "Qual é a moeda oficial da Alemanha?": {
+            "a": "lira",
+            "b": "marco",
+            "c": "franco",
+            "d": "libra",
+            "answer": "b"
+        },
+        "Quem foi o assassino de Lee Harvey Oswald?": {
+            "a": "jack ruby",
+            "b": "john wilkes booth",
+            "c": "pat garret",
+            "d": "charlotte corday",
+            "answer": "a"
+        },
+        "Quem é o parceiro de aventuras de Dom Quixote?": {
+            "a": "sancho pança",
+            "b": "guilherme tell",
+            "c": "sigmund freud",
+            "d": "lancelot",
+            "answer": "a"
+        },
+        "Nas histórias do Snoopy, qual é o nome do passarinho?": {
+            "a": "piu-piu",
+            "b": "woodstock",
+            "c": "canarinho",
+            "d": "rouxinol",
+            "answer": "b"
+        },
+        "Que metal avermelhado cria uma camada esverdeada em contato com a umidade?": {
+            "a": "ferro",
+            "b": "cobre",
+            "c": "mercúrio",
+            "d": "aço",
+            "answer": "b"
+        },
+        "Que planta era usada para fabricação de papel no antigo Egito?": {
+            "a": "papiro",
+            "b": "eucalipto",
+            "c": "oliveira",
+            "d": "milho",
+            "answer": "a"
+        },
+        "Que país europeu tem como atração a tourada?": {
+            "a": "espanha",
+            "b": "itália",
+            "c": "frança",
+            "d": "alemanha",
+            "answer": "a"
+        },
+        "Que humorista, falecido em 1999, foi baterista de Raul Seixas?": {
+            "a": "lilico",
+            "b": "roni cócegas",
+            "c": "grande otelo",
+            "d": "mazzaropi",
+            "answer": "b"
+        },
+        "O que os filatelistas colecionam?": {
+            "a": "quadros",
+            "b": "moedas",
+            "c": "selos",
+            "d": "figurinhas",
+            "answer": "c"
+        },
+        "Quem pintou o quadro \"La Gioconda\", conhecido como \"Mona Lisa\"?": {
+            "a": "leonardo da vinci",
+            "b": "ticiano",
+            "c": "rafael",
+            "d": "michelângelo",
+            "answer": "a"
+        },
+        "Em que cidade está situada a famosa Praça Vermelha?": {
+            "a": "moscou",
+            "b": "berlim",
+            "c": "paris",
+            "d": "roma",
+            "answer": "a"
+        },
+        "Qual é o nome do vulcão que sepultou cidades na Itália no ano de 79?": {
+            "a": "vênus",
+            "b": "vesúvio",
+            "c": "varsóvia",
+            "d": "veneza",
+            "answer": "b"
+        },
+        "Quando começou e terminou a Primeira Guerra Mundial?": {
+            "a": "1914-1919",
+            "b": "1939-1945",
+            "c": "1921-1932",
+            "d": "1912-1915",
+            "answer": "a"
+        },
+        "Qual é a letra do alfabeto que simboliza o número dez em algarismo romano?": {
+            "a": "v",
+            "b": "d",
+            "c": "l",
+            "d": "x",
+            "answer": "d"
+        },
+        "Qual é a história que Francis Ford Coppola dirigiu em três partes?": {
+            "a": "titanic",
+            "b": "sexta-feira treze",
+            "c": "o poderoso chefão",
+            "d": "guerra nas estrelas",
+            "answer": "c"
+        },
+        "Que animais são criados nas pocilgas?": {
+            "a": "camelos",
+            "b": "búfalos",
+            "c": "carneiros",
+            "d": "porcos",
+            "answer": "d"
+        },
+        "Quem foi o diretor do filme \"A lista de Schindler?": {
+            "a": "clint eastwood",
+            "b": "steven spielberg",
+            "c": "stanley kubrick",
+            "d": "pedro almodóvar",
+            "answer": "b"
+        },
+        "Qual é o alimento produzido pela moagem dos grãos de cacau?": {
+            "a": "parafina",
+            "b": "açúcar",
+            "c": "chocolate",
+            "d": "café",
+            "answer": "c"
+        },
+        "Quem introduziu o futebol no Brasil?": {
+            "a": "pelé",
+            "b": "joão havelange",
+            "c": "charles miller",
+            "d": "paulo machado",
+            "answer": "c"
+        },
+        "Em que continente se situa o rio Nilo?": {
+            "a": "africano",
+            "b": "europeu",
+            "c": "americano",
+            "d": "asiático",
+            "answer": "a"
+        },
+        "Que colônia britânica foi devolvida à China em 1997?": {
+            "a": "pequim",
+            "b": "hanói",
+            "c": "hiroshima",
+            "d": "hong kong",
+            "answer": "d"
+        },
+        "Nova Delhi é a capital de que país?": {
+            "a": "índia",
+            "b": "islândia",
+            "c": "paquistão",
+            "d": "méxico",
+            "answer": "a"
+        },
+        "O que leva o sangue do coração para o corpo?": {
+            "a": "veias",
+            "b": "músculos",
+            "c": "artérias",
+            "d": "ossos",
+            "answer": "c"
+        },
+        "Como é chamado o objeto falsificado vendido como original?": {
+            "a": "pirarucu",
+            "b": "perneta",
+            "c": "pirata",
+            "d": "papagaio",
+            "answer": "c"
+        },
+        "Em que matéria estuda-se álgebra na escola?": {
+            "a": "matemática",
+            "b": "biologia",
+            "c": "química",
+            "d": "física",
+            "answer": "a"
+        },
+        "Qual é o nome original do filme \"O médico e o monstro\"?": {
+            "a": "masters e johnson",
+            "b": "dr. jekyll e mr. hyde",
+            "c": "bonnie e clyde",
+            "d": "d. quixote e sancho pança",
+            "answer": "b"
+        },
+        "Que atriz casou com Joe Dimaggio e Arthur Miller?": {
+            "a": "glenda jackson",
+            "b": "margaret becket",
+            "c": "marilyn monroe",
+            "d": "elizabeth taylor",
+            "answer": "c"
+        },
+        "Quem disse a frase: \"Vim, vi e venci\"?": {
+            "a": "júlio césar",
+            "b": "calígula",
+            "c": "nero",
+            "d": "marco antônio",
+            "answer": "a"
+        },
+        "Que nome se dá à volta dos cardumes de peixes para a nascente do rio?": {
+            "a": "pororoca",
+            "b": "perereca",
+            "c": "pirapora",
+            "d": "piracema",
+            "answer": "d"
+        },
+        "Qual é o país que participou de todas as copas do mundo de futebol, até 1998?": {
+            "a": "itália",
+            "b": "uruguai",
+            "c": "argentina",
+            "d": "brasil",
+            "answer": "d"
+        },
+        "Quais são os naipes vermelhos do baralho?": {
+            "a": "ouros e copas",
+            "b": "copas e paus",
+            "c": "paus e ouros",
+            "d": "espadas e paus",
+            "answer": "a"
+        },
+        "Qual é o nome verdadeiro do Batman?": {
+            "a": "bruce wayne",
+            "b": "dexter",
+            "c": "clark kent",
+            "d": "lex lutor",
+            "answer": "a"
+        },
+        "Beirute é a capital de que país?": {
+            "a": "síria",
+            "b": "nepal",
+            "c": "mongólia",
+            "d": "líbano",
+            "answer": "d"
+        },
+        "O que é um contratorpedeiro?": {
+            "a": "tanque",
+            "b": "navio de guerra",
+            "c": "dirigível",
+            "d": "avião de caça",
+            "answer": "b"
+        },
+        "Às margens de que riacho foi proclamada a Independência do Brasil?": {
+            "a": "cambuci",
+            "b": "sacomã",
+            "c": "ipiranga",
+            "d": "são francisco",
+            "answer": "c"
+        },
+        "O \"super bowl\" faz parte de qual esporte?": {
+            "a": "baseball",
+            "b": "basquete",
+            "c": "futebol americano",
+            "d": "golf",
+            "answer": "c"
+        },
+        "Qual é o nome da embarcação típica do litoral nordestino brasileiro?": {
+            "a": "submarino",
+            "b": "jet ski",
+            "c": "jangada",
+            "d": "lancha",
+            "answer": "c"
+        },
+        "Em que estado norte-americano fica a cidade de Miami?": {
+            "a": "alasca",
+            "b": "nova york",
+            "c": "flórida",
+            "d": "califórnia",
+            "answer": "c"
+        },
+        "Qual é a capital do Iraque?": {
+            "a": "belém",
+            "b": "bagdá",
+            "c": "beirute",
+            "d": "budapeste",
+            "answer": "b"
+        },
+        "Como se chama a máquina usada para compactar o asfalto?": {
+            "a": "rolo compressor",
+            "b": "escavadeira",
+            "c": "trator",
+            "d": "lixadeira",
+            "answer": "a"
+        },
+        "Em 1991, que esportista americano se afastou do basquete por ser HIV positivo?": {
+            "a": "michael jordan",
+            "b": "magic johnson",
+            "c": "dennis rodman",
+            "d": "mike tyson",
+            "answer": "b"
+        },
+        "Qual é o nome do cachorro de Charlie Brown?": {
+            "a": "pluto",
+            "b": "floquinho",
+            "c": "baleia",
+            "d": "snoopy",
+            "answer": "d"
+        },
+        "Qual presidente dos Estados Unidos foi ator de cinema?": {
+            "a": "ronald reagan",
+            "b": "george bush",
+            "c": "richard nixon",
+            "d": "bill clinton",
+            "answer": "a"
+        },
+        "Como é chamado o templo sagrado dos judeus?": {
+            "a": "igreja",
+            "b": "capela",
+            "c": "sinagoga",
+            "d": "catedral",
+            "answer": "c"
+        },
+        "A que categoria pertence o cavalo-marinho?": {
+            "a": "molusco",
+            "b": "crustáceo",
+            "c": "peixe",
+            "d": "mamífero",
+            "answer": "c"
+        },
+        "O FBI é a polícia federal de qual país?": {
+            "a": "inglaterra",
+            "b": "estados unidos",
+            "c": "canadá",
+            "d": "frança",
+            "answer": "b"
+        },
+        "Em que cidade brasileira fica o Instituto Tecnológico de Aeronáutica?": {
+            "a": "são josé do rio preto",
+            "b": "são josé dos pinhais",
+            "c": "são josé dos campos",
+            "d": "são josé dos santos",
+            "answer": "c"
+        },
+        "Em que cidade foram realizados os jogos olímpicos de 2000?": {
+            "a": "munique",
+            "b": "sidney",
+            "c": "tóquio",
+            "d": "atlanta",
+            "answer": "b"
+        },
+        "Em que país fica a grande muralha com cerca de 6.400 quilômetros?": {
+            "a": "japão",
+            "b": "china",
+            "c": "afeganistão",
+            "d": "índia",
+            "answer": "b"
+        },
+        "Qual é o nome do Patriarca da Independência do Brasil?": {
+            "a": "tiradentes",
+            "b": "josé bonifácio",
+            "c": "dom pedro ii",
+            "d": "vasco da gama",
+            "answer": "b"
+        },
+        "O nome América foi associado a qual desses nomes?": {
+            "a": "américo dos reis",
+            "b": "américo brasiliense",
+            "c": "américo vespúcio",
+            "d": "josé américo da silva",
+            "answer": "c"
+        },
+        "Qual é o médico que mais utiliza o eletrocardiograma?": {
+            "a": "ortopedista",
+            "b": "cardiologista",
+            "c": "dermatologista",
+            "d": "acupunturista",
+            "answer": "b"
+        },
+        "Qual o significado da sigla \"AI\", no AI-5?": {
+            "a": "ato intencional",
+            "b": "ato institucional",
+            "c": "ato inspirador",
+            "d": "ato idealizador",
+            "answer": "b"
+        },
+        "Qual personagem bíblico dividiu as águas do Mar Vermelho?": {
+            "a": "abraão",
+            "b": "moisés",
+            "c": "josué",
+            "d": "elias",
+            "answer": "b"
+        },
+        "Qual dessas cobras não é venenosa?": {
+            "a": "urutu",
+            "b": "cascavel",
+            "c": "jararaca",
+            "d": "píton",
+            "answer": "d"
+        },
+        "Que animal é usado no jogo de pólo?": {
+            "a": "camelo",
+            "b": "cavalo",
+            "c": "macaco",
+            "d": "cachorro",
+            "answer": "b"
+        },
+        "Em que ano ocorreu o incêndio do edifício Joelma, na cidade de São Paulo?": {
+            "a": "1971",
+            "b": "1972",
+            "c": "1973",
+            "d": "1974",
+            "answer": "d"
+        },
+        "Teresina é a capital de qual estado brasileiro?": {
+            "a": "tocantins",
+            "b": "piauí",
+            "c": "acre",
+            "d": "paraná",
+            "answer": "b"
+        },
+        "Sobre qual cidade do Japão foi lançada a primeira bomba atômica?": {
+            "a": "tóquio",
+            "b": "nagasaki",
+            "c": "osaka",
+            "d": "hiroxima",
+            "answer": "d"
+        },
+        "O daltônico é deficiente em?": {
+            "a": "sentir dor",
+            "b": "sentir paladar",
+            "c": "diferenciar cores",
+            "d": "sentir cheiro",
+            "answer": "c"
+        },
+        "Qual é o dia da Padroeira do Brasil?": {
+            "a": "12 de outubro",
+            "b": "12 de novembro",
+            "c": "11 de dezembro",
+            "d": "1 de janeiro",
+            "answer": "a"
+        },
+        "Qual é a capital do Estado de Mato Grosso do Sul?": {
+            "a": "cuiabá",
+            "b": "várzea grande",
+            "c": "rondonópolis",
+            "d": "campo grande",
+            "answer": "d"
+        },
+        "Quantos são os continentes?": {
+            "a": "cinco",
+            "b": "sete",
+            "c": "três",
+            "d": "quatro",
+            "answer": "a"
+        },
+        "Por que nome são conhecidas as pessoas do Pólo Ártico?": {
+            "a": "sulistas",
+            "b": "esquimós",
+            "c": "nortistas",
+            "d": "polares",
+            "answer": "b"
+        },
+        "Qual é a fórmula química da água?": {
+            "a": "nacl",
+            "b": "h2",
+            "c": "h2o",
+            "d": "co2",
+            "answer": "c"
+        },
+        "Qual era a profissão de Cecília Meirelles?": {
+            "a": "cantora",
+            "b": "escritora",
+            "c": "arquiteta",
+            "d": "pianista",
+            "answer": "b"
+        },
+        "Em que cidade fica a sede da rede de TV BBC?": {
+            "a": "londres",
+            "b": "nova york",
+            "c": "montreal",
+            "d": "califórnia",
+            "answer": "a"
+        },
+        "Camillo é o sobrenome de qual cantor nascido em Brotas?": {
+            "a": "leonardo",
+            "b": "chitãozinho",
+            "c": "daniel",
+            "d": "vinny",
+            "answer": "c"
+        },
+        "Por quantos integrantes era formado o grupo Beatles?": {
+            "a": "três",
+            "b": "quatro",
+            "c": "cinco",
+            "d": "seis",
+            "answer": "b"
+        },
+        "Qual foi o último imperador do Brasil?": {
+            "a": "d.pedro ii",
+            "b": "d.pedro i",
+            "c": "d.joão vi",
+            "d": "deodoro da fonseca",
+            "answer": "a"
+        },
+        "Quem dirigiu o filme \"Central do Brasil\"?": {
+            "a": "bruno barreto",
+            "b": "héctor babenco",
+            "c": "arnaldo jabor",
+            "d": "walter salles júnior",
+            "answer": "d"
+        },
+        "O que significa a expressão e-mail?": {
+            "a": "correio rápido",
+            "b": "correio eletrônico",
+            "c": "correio elegante",
+            "d": "correio de máquina",
+            "answer": "b"
+        }
+    },
+    "Hard": {
+        "Em qual espécie o macho choca os ovos e a fêmea procura alimento?": {
+            "a": "andorinha",
+            "b": "pato selvagem",
+            "c": "pinguim",
+            "d": "marreco",
+            "answer": "c"
+        },
+        "Em qual país está localizado o \"Muro das lamentações\"?": {
+            "a": "alemanha",
+            "b": "brasil",
+            "c": "venezuela",
+            "d": "israel",
+            "answer": "d"
+        },
+        "Qual desses países não fica na Ásia?": {
+            "a": "paquistão",
+            "b": "japão",
+            "c": "tailândia",
+            "d": "egito",
+            "answer": "d"
+        },
+        "Qual desses astros de filmes de ação é belga?": {
+            "a": "arnold schwarzenegger",
+            "b": "sylvester stallone",
+            "c": "steven seagal",
+            "d": "jean claude van damme",
+            "answer": "d"
+        },
+        "Onde foi conduzida a vitória das forças aliadas na Segunda Guerra Mundial?": {
+            "a": "cannes",
+            "b": "normandia",
+            "c": "capri",
+            "d": "marselha",
+            "answer": "b"
+        },
+        "Onde nasceu Van Gogh, o grande pintor impressionista?": {
+            "a": "polônia",
+            "b": "frança",
+            "c": "itália",
+            "d": "holanda",
+            "answer": "d"
+        },
+        "Qual é a primeira letra do alfabeto grego?": {
+            "a": "delta",
+            "b": "beta",
+            "c": "alfa",
+            "d": "gama",
+            "answer": "c"
+        },
+        "Qual presidente brasileiro instituiu o AI-5?": {
+            "a": "costa e silva",
+            "b": "ernesto geisel",
+            "c": "joão figueiredo",
+            "d": "itamar franco",
+            "answer": "a"
+        },
+        "O que significa literalmente Perestroika?": {
+            "a": "conversão",
+            "b": "involução",
+            "c": "reestruturação",
+            "d": "regressão",
+            "answer": "c"
+        },
+        "Qual desses quatro pesos é o mais leve?": {
+            "a": "10 onças",
+            "b": "10 gramas",
+            "c": "10 quilos",
+            "d": "10 libras",
+            "answer": "b"
+        },
+        "Brahma é o deus de que religião?": {
+            "a": "hinduísmo",
+            "b": "xintoísmo",
+            "c": "budismo",
+            "d": "islamismo",
+            "answer": "a"
+        },
+        "Os nazistas foram julgados em:": {
+            "a": "berlim",
+            "b": "nurembergue",
+            "c": "munique",
+            "d": "paris",
+            "answer": "b"
+        },
+        "Que ramo da pecuária ocupa- se de bodes e cabras?": {
+            "a": "asinino",
+            "b": "caprino",
+            "c": "bufalino",
+            "d": "muar",
+            "answer": "b"
+        },
+        "Qual oceano tem o maior volume de água?": {
+            "a": "atlântico",
+            "b": "pacífico",
+            "c": "índico",
+            "d": "ártico",
+            "answer": "b"
+        },
+        "Qual foi o último presidente militar do Brasil?": {
+            "a": "fernando collor",
+            "b": "joão figueiredo",
+            "c": "tancredo neves",
+            "d": "joão goulart",
+            "answer": "b"
+        },
+        "Que conflito ideológico envolveu os EUA e a União Soviética?": {
+            "a": "guerra fria",
+            "b": "guerra do vietnã",
+            "c": "guerra nas estrelas",
+            "d": "guerra da coréia",
+            "answer": "a"
+        },
+        "O trapézio é um músculo que está situado:": {
+            "a": "no pescoço",
+            "b": "no ombro",
+            "c": "na cabeça",
+            "d": "no braço",
+            "answer": "b"
+        },
+        "Quem escreveu o livro \"A sangue frio\" em 1966?": {
+            "a": "truman capote",
+            "b": "henry james",
+            "c": "john steinbeck",
+            "d": "toni morrison",
+            "answer": "a"
+        },
+        "Quem escreveu \"Ulisses\" em 1922?": {
+            "a": "ernest hemingway",
+            "b": "marcel proust",
+            "c": "t.s. elliot",
+            "d": "james joyce",
+            "answer": "d"
+        },
+        "Qual o símbolo químico do radônio?": {
+            "a": "rr",
+            "b": "rd",
+            "c": "rn",
+            "d": "ro",
+            "answer": "c"
+        },
+        "O que são meninges?": {
+            "a": "células",
+            "b": "nervos",
+            "c": "membranas",
+            "d": "músculos",
+            "answer": "c"
+        },
+        "Qual produto gerou guerras e conflitos no século XX?": {
+            "a": "álcool",
+            "b": "petróleo",
+            "c": "ouro",
+            "d": "alumínio",
+            "answer": "b"
+        },
+        "Como é chamada a bola de gelo e poeira que orbita em torno do sol?": {
+            "a": "cometa",
+            "b": "meteorito",
+            "c": "camada de ozônio",
+            "d": "estrela d'alva",
+            "answer": "a"
+        },
+        "O confucionismo é uma filosofia de qual nacionalidade?": {
+            "a": "indiana",
+            "b": "japonesa",
+            "c": "chinesa",
+            "d": "coreana",
+            "answer": "c"
+        },
+        "Qual a ciência que estuda a distribuição dos animais?": {
+            "a": "zooterapia",
+            "b": "zoogeografia",
+            "c": "zodíaco",
+            "d": "zoometria",
+            "answer": "b"
+        },
+        "A eletrônica é parte de qual ciência?": {
+            "a": "física",
+            "b": "biologia",
+            "c": "química",
+            "d": "botânica",
+            "answer": "a"
+        },
+        "A Bélgica é:": {
+            "a": "uma república",
+            "b": "uma monarquia constitucional",
+            "c": "um emirado",
+            "d": "um principado",
+            "answer": "b"
+        },
+        "Que parte do corpo humano é infectada pela cólera?": {
+            "a": "garganta",
+            "b": "intestino",
+            "c": "pulmões",
+            "d": "rins",
+            "answer": "b"
+        },
+        "Que figura mitológica é conhecida por sua força extraordinária?": {
+            "a": "átila",
+            "b": "minotauro",
+            "c": "perseu",
+            "d": "hércules",
+            "answer": "d"
+        },
+        "A união do espermatozóide com o óvulo origina uma célula chamada:": {
+            "a": "zigoto",
+            "b": "bigoto",
+            "c": "feto",
+            "d": "garoto",
+            "answer": "a"
+        },
+        "A que país pertence a ilha de Terra Nova?": {
+            "a": "estados unidos",
+            "b": "dinamarca",
+            "c": "canadá",
+            "d": "frança",
+            "answer": "c"
+        },
+        "Em que país você pode gastar rublos?": {
+            "a": "holanda",
+            "b": "rússia",
+            "c": "espanha",
+            "d": "áfrica do sul",
+            "answer": "b"
+        },
+        "Na criação do Estado do Tocantins, que estado teve o território reduzido?": {
+            "a": "goiás",
+            "b": "mato grosso",
+            "c": "pará",
+            "d": "maranhão",
+            "answer": "a"
+        },
+        "De quem é este verso: \"A praça é do povo, como o céu é do condor\"?": {
+            "a": "tobias barreto",
+            "b": "dorival caimi",
+            "c": "machado de assis",
+            "d": "castro alves",
+            "answer": "d"
+        },
+        "Que nome recebe a foz de um rio que se abre para o mar?": {
+            "a": "alagado",
+            "b": "manguezal",
+            "c": "pântano",
+            "d": "estuário",
+            "answer": "d"
+        },
+        "\"Arábica\" e \"robusta\" são tipos de quê?": {
+            "a": "uva",
+            "b": "café",
+            "c": "melão",
+            "d": "laranja",
+            "answer": "b"
+        },
+        "Em que ano Ayrton Senna venceu o primeiro campeonato de Fórmula 1?": {
+            "a": "1987",
+            "b": "1990",
+            "c": "1985",
+            "d": "1988",
+            "answer": "d"
+        },
+        "Qual é a menor República do mundo?": {
+            "a": "mônaco",
+            "b": "san marino",
+            "c": "nova zelândia",
+            "d": "china",
+            "answer": "b"
+        },
+        "Que símbolo está desenhado no centro da bandeira Argentina?": {
+            "a": "sol",
+            "b": "lua",
+            "c": "estrela",
+            "d": "foice e martelo",
+            "answer": "a"
+        },
+        "De quem é a frase \"Penso, logo existo\"?": {
+            "a": "platão",
+            "b": "júlio verne",
+            "c": "aristóteles",
+            "d": "rené descartes",
+            "answer": "d"
+        },
+        "Quem construiu o primeiro telescópio astronômico completo?": {
+            "a": "cyrus mccormick",
+            "b": "thomas edison",
+            "c": "michelangelo",
+            "d": "galileu galilei",
+            "answer": "d"
+        },
+        "Em que parte do nosso corpo está o úmero?": {
+            "a": "braço",
+            "b": "perna",
+            "c": "quadril",
+            "d": "coluna",
+            "answer": "a"
+        },
+        "A quem se atribui a frase \"Eu sou o Estado\"?": {
+            "a": "luiz xiv",
+            "b": "luiz xv",
+            "c": "luiz xvi",
+            "d": "napoleão bonaparte",
+            "answer": "a"
+        },
+        "Qual o nome verdadeiro do jogador de futebol conhecido com Zico?": {
+            "a": "arthur antunes coimbra",
+            "b": "arthur alves pinto",
+            "c": "arthur da távola",
+            "d": "arthur dos santos",
+            "answer": "a"
+        },
+        "O que significa deprecar?": {
+            "a": "renegar",
+            "b": "sujeitar",
+            "c": "desmaiar",
+            "d": "pedir",
+            "answer": "d"
+        },
+        "Que cidade foi capital do Império Inca?": {
+            "a": "la paz",
+            "b": "buenos aires",
+            "c": "bogotá",
+            "d": "cuzco",
+            "answer": "d"
+        },
+        "Com que outro nome é conhecido o Cabo Canaveral?": {
+            "a": "cabo jefferson",
+            "b": "cabo lincoln",
+            "c": "cabo kennedy",
+            "d": "cabo reagan",
+            "answer": "c"
+        },
+        "Que significa o prefixo exo?": {
+            "a": "dentro de",
+            "b": "debaixo de",
+            "c": "fora de",
+            "d": "atrás de",
+            "answer": "c"
+        },
+        "Bill Clinton nasceu em que cidade?": {
+            "a": "los angeles",
+            "b": "chicago",
+            "c": "hope",
+            "d": "dallas",
+            "answer": "c"
+        },
+        "Qual foi o material utilizado na construção do Partenon de Atenas?": {
+            "a": "mármore",
+            "b": "granito",
+            "c": "gesso",
+            "d": "quartzo",
+            "answer": "a"
+        },
+        "Que trópico atravessa o Saara?": {
+            "a": "capricórnio",
+            "b": "virgem",
+            "c": "câncer",
+            "d": "leão",
+            "answer": "c"
+        },
+        "Quem foi aluno de Platão e tutor de Alexandre, o Grande?": {
+            "a": "pitágoras",
+            "b": "diderot",
+            "c": "aristóteles",
+            "d": "galileu galilei",
+            "answer": "c"
+        },
+        "\"Guernica\" é uma tela de qual pintor?": {
+            "a": "monet",
+            "b": "renoir",
+            "c": "picasso",
+            "d": "leonardo da vinci",
+            "answer": "c"
+        },
+        "Em que ano foi inaugurada a estátua do Cristo Redentor no Rio de Janeiro?": {
+            "a": "1921",
+            "b": "1931",
+            "c": "1941",
+            "d": "1951",
+            "answer": "b"
+        },
+        "Qual é a religião majoritária da Turquia?": {
+            "a": "budista",
+            "b": "islâmica",
+            "c": "católica",
+            "d": "protestante",
+            "answer": "b"
+        },
+        "Onde estão os sepulcros de Michelangelo, Maquiavel e Galileu?": {
+            "a": "milão",
+            "b": "florença",
+            "c": "veneza",
+            "d": "gênova",
+            "answer": "b"
+        },
+        "A que país deve-se viajar para subir o Monte Parnaso?": {
+            "a": "itália",
+            "b": "frança",
+            "c": "grécia",
+            "d": "turquia",
+            "answer": "c"
+        },
+        "A que letra do nosso alfabeto corresponde a letra grega tau?": {
+            "a": "f",
+            "b": "h",
+            "c": "j",
+            "d": "t",
+            "answer": "d"
+        },
+        "Em qual guerra lutou Paul Newman pela marinha americana?": {
+            "a": "primeira guerra mundial",
+            "b": "guerra do vietnã",
+            "c": "guerra da coréia",
+            "d": "segunda guerra mundial",
+            "answer": "d"
+        },
+        "O que é talude?": {
+            "a": "avalanche de neve",
+            "b": "fungo",
+            "c": "inclinação de terreno",
+            "d": "rito islâmico",
+            "answer": "c"
+        },
+        "Qual destas palavras é sinônimo de cabal?": {
+            "a": "baixo",
+            "b": "perfeito",
+            "c": "atrevido",
+            "d": "enfermo",
+            "answer": "b"
+        },
+        "Qual desses poetas foi indicado para o prêmio Nobel de literatura?": {
+            "a": "mário quintana",
+            "b": "manuel bandeira",
+            "c": "vinícius de morais",
+            "d": "carlos drummond de andrade",
+            "answer": "d"
+        },
+        "Qual foi a locomotiva a vapor que trafegou na Estrada de Ferro Mauá em 1854?": {
+            "a": "santa-fé",
+            "b": "loco-breque",
+            "c": "american",
+            "d": "baronesa",
+            "answer": "d"
+        },
+        "O que é palato?": {
+            "a": "barriga da perna",
+            "b": "menina dos olhos",
+            "c": "língua",
+            "d": "céu da boca",
+            "answer": "d"
+        },
+        "O que construía Stradivarius?": {
+            "a": "casas",
+            "b": "violinos",
+            "c": "armas",
+            "d": "estradas",
+            "answer": "b"
+        },
+        "Qual atleta foi desclassificado por uso de doping nas Olimpíadas de 1988?": {
+            "a": "mike powell",
+            "b": "ben johnson",
+            "c": "carl lewis",
+            "d": "linford christie",
+            "answer": "b"
+        },
+        "Qual é o exame que emite ondas sonoras para visualizar os órgãos?": {
+            "a": "xerografia",
+            "b": "ultra-sonografia",
+            "c": "fotografia",
+            "d": "radiografia",
+            "answer": "b"
+        },
+        "Qual é a especialidade dos profissionais que analisam os sulcos e marcas de uma bala?": {
+            "a": "baleagem",
+            "b": "balística",
+            "c": "logística",
+            "d": "impressão digital",
+            "answer": "b"
+        },
+        "Qual metal possui o símbolo Hg?": {
+            "a": "ferro",
+            "b": "aço",
+            "c": "mercúrio",
+            "d": "ouro",
+            "answer": "c"
+        },
+        "Qual é o nome dado a um conjunto de sinos?": {
+            "a": "corrimão",
+            "b": "carrilhão",
+            "c": "badalada",
+            "d": "corselete",
+            "answer": "b"
+        },
+        "Qual é a altura oficial do aro na cesta no basquete?": {
+            "a": "3,05 metros",
+            "b": "2,97 metros",
+            "c": "3,10 metros",
+            "d": "3,00 metros",
+            "answer": "a"
+        },
+        "Qual é o apelido do time da Ponte Preta?": {
+            "a": "feiticeira",
+            "b": "raposa",
+            "c": "bruxa",
+            "d": "macaca",
+            "answer": "d"
+        },
+        "Quem foi chamado de Águia de Haia?": {
+            "a": "jorge amado",
+            "b": "eça de queiroz",
+            "c": "rui barbosa",
+            "d": "raimundo corrêa",
+            "answer": "c"
+        },
+        "Quem escreveu \"Dom Quixote\"?": {
+            "a": "espinoza",
+            "b": "miguel de cervantes",
+            "c": "carlos conte",
+            "d": "angel morita",
+            "answer": "b"
+        },
+        "Qual a origem da palavra folclore?": {
+            "a": "holandesa",
+            "b": "inglesa",
+            "c": "francesa",
+            "d": "brasileira",
+            "answer": "b"
+        },
+        "Quem ganhou a 1a medalha de ouro olímpico para o Brasil?": {
+            "a": "afranio antonio costa",
+            "b": "guilherme paraense",
+            "c": "fernando soledade",
+            "d": "sebastião wolf",
+            "answer": "b"
+        },
+        "Qual é o quarto planeta do sistema solar?": {
+            "a": "júpiter",
+            "b": "vênus",
+            "c": "terra",
+            "d": "marte",
+            "answer": "d"
+        },
+        "Que pintor francês consagrou a mulher taitiana em suas telas?": {
+            "a": "renoir",
+            "b": "gauguin",
+            "c": "cézanne",
+            "d": "monet",
+            "answer": "b"
+        },
+        "O que é glicose?": {
+            "a": "aminoácido",
+            "b": "hidrato de carbono",
+            "c": "lipídio",
+            "d": "proteína",
+            "answer": "b"
+        },
+        "Qual destas seleções nunca jogou uma final de copa?": {
+            "a": "espanha",
+            "b": "suécia",
+            "c": "hungria",
+            "d": "frança",
+            "answer": "a"
+        },
+        "Qual foi a primeira mulher a entrar no \"hall da fama\" do rock and roll?": {
+            "a": "janis joplin",
+            "b": "carole king",
+            "c": "aretha franklin",
+            "d": "diana ross",
+            "answer": "c"
+        },
+        "Nova Caledônia faz parte da:": {
+            "a": "micronésia",
+            "b": "melanésia",
+            "c": "polinésia",
+            "d": "indonésia",
+            "answer": "b"
+        },
+        "Qual é o país que tem uma árvore estampada na bandeira?": {
+            "a": "egito",
+            "b": "canadá",
+            "c": "líbano",
+            "d": "marrocos",
+            "answer": "c"
+        },
+        "O que procurava Juan Ponce de Leon quando descobriu a Flórida?": {
+            "a": "a cidade perdida de ouro",
+            "b": "a fonte da juventude",
+            "c": "unicórnios",
+            "d": "seu gato",
+            "answer": "b"
+        },
+        "As Ilhas Malvinas também são chamadas de:": {
+            "a": "stanley",
+            "b": "wedells",
+            "c": "medanosa",
+            "d": "falkland",
+            "answer": "d"
+        },
+        "Qual destes países não se situa no Equador?": {
+            "a": "quênia",
+            "b": "equador",
+            "c": "chile",
+            "d": "indonésia",
+            "answer": "c"
+        },
+        "Em que país Leonardo da Vinci viveu seus últimos dias?": {
+            "a": "espanha",
+            "b": "holanda",
+            "c": "frança",
+            "d": "itália",
+            "answer": "c"
+        },
+        "A que país pertence a Groenlândia?": {
+            "a": "dinamarca",
+            "b": "inglaterra",
+            "c": "noruega",
+            "d": "estados unidos",
+            "answer": "a"
+        },
+        "Pablo Picasso foi um dos criadores do:": {
+            "a": "cubismo",
+            "b": "surrealismo",
+            "c": "impressionismo",
+            "d": "realismo",
+            "answer": "a"
+        },
+        "Como se chama o explorador de grutas e cavernas?": {
+            "a": "espeleólogo",
+            "b": "agrostólogo",
+            "c": "psicólogo",
+            "d": "campanólogo",
+            "answer": "a"
+        },
+        "Qual o sistema de transporte mais utilizado no Brasil?": {
+            "a": "ferroviário",
+            "b": "aéreo",
+            "c": "hidroviário",
+            "d": "rodoviário",
+            "answer": "d"
+        },
+        "A baleia está classificada em qual grupo de mamíferos?": {
+            "a": "cetáceos",
+            "b": "felinos",
+            "c": "sirênios",
+            "d": "carnívoros",
+            "answer": "a"
+        },
+        "Qual é a maior ilha da Europa?": {
+            "a": "grã-bretanha",
+            "b": "irlanda",
+            "c": "islândia",
+            "d": "sicília",
+            "answer": "a"
+        },
+        "O filme \"A noviça rebelde\", premiado com 5 Oscars, foi estrelado por:": {
+            "a": "judy garland",
+            "b": "shirley temple",
+            "c": "julie andrews",
+            "d": "doris day",
+            "answer": "c"
+        },
+        "Qual foi o primeiro presidente do Brasil eleito pelo povo?": {
+            "a": "getúlio vargas",
+            "b": "prudente de moraes",
+            "c": "washington luís",
+            "d": "tancredo neves",
+            "answer": "b"
+        },
+        "O que o pintor Claude Monet representou em suas telas?": {
+            "a": "os jardins de giverny",
+            "b": "os bistrôs de paris",
+            "c": "cenas do moulin rouge",
+            "d": "paisagens da provença",
+            "answer": "a"
+        },
+        "Miró, Picasso e Salvador Dalí eram pintores:": {
+            "a": "italianos",
+            "b": "portugueses",
+            "c": "espanhóis",
+            "d": "chilenos",
+            "answer": "c"
+        },
+        "Qual foi o piloto de Fórmula 1 que conquistou o título de campeão mundial cinco vezes?": {
+            "a": "jacques stewart",
+            "b": "alain prost",
+            "c": "ayrton senna",
+            "d": "j. manoel fangio",
+            "answer": "d"
+        },
+        "Como o rei francês Luis XVI e sua esposa Maria Antonieta morreram?": {
+            "a": "enforcados",
+            "b": "fuzilados",
+            "c": "guilhotinados",
+            "d": "queimados",
+            "answer": "c"
+        },
+        "Como é chamada a gravura impressa sobre pranchas de madeira?": {
+            "a": "materografia",
+            "b": "litografia",
+            "c": "xilografia",
+            "d": "serigrafia",
+            "answer": "c"
+        }
+    }
+}
