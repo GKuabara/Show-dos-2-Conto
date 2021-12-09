@@ -36,7 +36,7 @@ classe Jogador:
 classe Jogo: 
     Jogador p1_klink, p2_charlim
     long rodada_atual
-    long recompensa_rodada * (DEFINE * rodada_atual)
+    double recompensa_rodada * (DEFINE * rodada_atual)
     
     realizarRodada()
         - sortear pergunta

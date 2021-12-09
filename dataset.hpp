@@ -1,7 +1,7 @@
 #ifndef _DATASET_H_
 #define _DATASET_H_
 
-#include "question.h"
+#include "question.hpp"
 #include <set>
 
 using namespace std;

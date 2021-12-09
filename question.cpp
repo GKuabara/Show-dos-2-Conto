@@ -1,9 +1,9 @@
-#include "question.h"
+#include "question.hpp"
 
 Question::Question(string question, string right_answer, vector<string> alternatives) {
-    this.question = question;
-    this.right_answer = right_answer;
-    this.alternatives = alternatives;
+    this->question = question;
+    this->right_answer = right_answer;
+    this->alternatives = alternatives;
 }
 
 void Question::shuffleAnswers() {
