@@ -10,20 +10,20 @@
 using namespace std;
 
 class Question {
-    private:
-        string question;
-        string right_answer;
-        vector<string> alternatives;
-    
-        vector<string> shuffleAnswers();
-
+    // private:
     public:
-        Question(string question, string right_answer, vector<string> alternatives);
+        string question;
+        int right_answer_id;
+        vector<string> alternatives;
+        int level;
+    
+        Question(string question, int right_answer_id, vector<string> alternatives, int level);
         void shuffleAnswers();
         string getQuestion();
         vector<string> getAlternatives();
-        bool validateAnswer(char alternatives);  
-};
+        bool validateAnswer(char alternatives);
 
+        void printQuestion();
+};
 
 #endif
