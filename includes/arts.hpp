@@ -4,6 +4,9 @@
 #include <iostream>
 #include <cstdio>
 #include <unistd.h>
+
+#include "question.hpp"
+
 using namespace std;
 
 #define RESET   "\033[0m"
@@ -31,9 +34,15 @@ using namespace std;
 
 
 // Messages
+void printAdvice();
 void printWelcome();
 void printCountdown();
 void printPoints(string name1, string name2, double p1, double p2);
 void printEnd(string p);
+
+void printQuestion(Question q, long round_id);
+
+void printSettings();
+void printPlayerSetting();
 
 #endif 

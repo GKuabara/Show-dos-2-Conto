@@ -12,6 +12,7 @@ class Dataset {
         unordered_map<int,  std::vector<Question>> questions;
     
     public:
+        Dataset();
         Dataset(string filename);
         Question getRandomQuestion(string level_str);
 };

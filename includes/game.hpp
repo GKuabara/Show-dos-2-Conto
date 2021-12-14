@@ -5,22 +5,30 @@
 #include <vector>
 #include <algorithm>
 #include <random>
+
+#include "arts.hpp"
 #include "player.hpp"
 #include "dataset.hpp"
-
-#define abluebluebla 69696969
 
 using namespace std;
 
 class Game {
     private:
         Player p1, p2;
-        long round;
-        double curAward;
-    
+        Dataset questions_data;
+        long cur_round, cur_award, max_pontuation;
+
+        string getQuestionLevel();
+
     public:
-        Game(Player p1, Player p2, long round, double curAward);
-        void executeRound();
+        Game(string dataset_file_path);
+        void configureSettings();
+        Player configurePlayer();
+
+        void executeGame();
+        void executeNewRound();
+        
+        long getCurAward();
 };
 
 #endif

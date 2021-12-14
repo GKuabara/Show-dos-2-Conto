@@ -12,16 +12,15 @@ using namespace std;
 class Player {
     private:
         string name;
-        double points;
-        long sequence;
-        vector<char> keys;
+        long points;
+        char player_key;
     
     public:
-        Player(string name, int points, long sequence, vector<char> keys);
-        double getPoints();
-        void updatePoints(double points);
-        void updateSequence(long sequence);
-        void updateKeys(vector<char> keys);  
+        Player();
+        Player(string name, char player_key);
+        long getPoints();
+        void updatePoints(long points);
+        void updateKey(char player_key);  
 };
 
 #endif

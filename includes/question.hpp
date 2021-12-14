@@ -23,7 +23,6 @@ class Question {
         vector<string> getAlternatives();
         bool validateAnswer(char alternatives);
 
-        void printQuestion();
 };
 
 #endif

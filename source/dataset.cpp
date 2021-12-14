@@ -14,6 +14,8 @@ static int convertLevelToInt(string l) {
     return 2;
 }
 
+Dataset::Dataset() {}
+
 // Load dataset of Question from json file 
 Dataset::Dataset(string filename) {
     std::ifstream i(filename);
