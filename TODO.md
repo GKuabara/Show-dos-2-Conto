@@ -2,24 +2,24 @@ TODO
 
 - criar classe jogador
 - criar classe UI: proxima pergunta, opções
-- criar classe dataset com perguntas e respostas
-  - vetor pares pergunta <string>: unordered_map {a: <string>, b:<string>, c:<string>, d<string>}} 
-  - 
-- definir como armazenar perguntas e respostas
 
-classe Pergunta: 
-    string pergunta
-    string resposta
+// (Done)
+// - criar classe dataset com perguntas e respostas
+//   - vetor pares pergunta <string>: unordered_map {a: <string>, b:<string>, c:<string>, d<string>}}  
+//- definir como armazenar perguntas e respostas
 
-    vetor string possibilidades
+// (Done)
+// classe Pergunta: 
+//    string pergunta
+//    string resposta
+//    vetor string possibilidades
+//    randomizar() -> vetor string
+//    checarResposta(char ) -> bool
 
-    randomizar() -> vetor string
-    checarResposta(char ) -> bool
-
-classe Dataset:
-    set de muitas Perguntas
-
-    sortearPergunta() -> retorna uma pergunta e elimina ela do set
+// (Done)
+// classe Dataset:
+//    set de muitas Perguntas
+//    sortearPergunta() -> retorna uma pergunta e elimina ela do set
 
 classe Jogador:
     string nome

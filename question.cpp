@@ -1,13 +1,13 @@
 #include "question.hpp"
+#include "json.hpp"
 
-Question::Question(string question, string right_answer, vector<string> alternatives) {
+using json = nlohmann::json;
+
+Question::Question(string question, int right_answer_id, vector<string> alternatives, int level) {
     this->question = question;
-    this->right_answer = right_answer;
+    this->right_answer_id = right_answer_id;
     this->alternatives = alternatives;
-}
-
-void Question::shuffleAnswers() {
-    random_shuffle(alternatives.begin(), alternatives.end());
+    this->level = level;
 }
 
 string Question::getQuestion() {
@@ -15,11 +15,20 @@ string Question::getQuestion() {
 }
 
 vector<string> Question::getAlternatives() {
-    shuffleAnswers();
     return alternatives;
 }
 
 bool Question::validateAnswer(char alternative) {
     int idx = alternative - 97;
-    return (right_answer.compare(alternatives[idx]) == 0) ? true : false;
+    return right_answer_id == idx;
+}
+
+// Debug
+void Question::printQuestion() {
+    cout << this->question << endl;
+    cout << "A) " << this->alternatives[0] << endl;
+    cout << "B) " << this->alternatives[1] << endl;
+    cout << "C) " << this->alternatives[2] << endl;
+    cout << "D) " << this->alternatives[3] << endl;
+    cout << "RESPOSTA: " << this->alternatives[this->right_answer_id];
 }
