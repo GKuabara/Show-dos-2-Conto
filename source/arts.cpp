@@ -2,11 +2,11 @@
 #include "question.hpp"
 
 void printAdvice() {
-    cout << /*system("clear") <<*/ "Recomendamos que jogue com o terminal em tela cheia para melhor experiência";
+    cout << system("clear") << "\rRecomendamos que jogue com o terminal em tela cheia para melhor experiência";
 }
 
 void printWelcome() {
-    cout << /*system("clear") <<*/ R"(
+    cout << system("clear") << "\r" << R"(
              ____    __                                  __                          ___                              __             
             /\  _`\ /\ \                                /\ \                       /'___`\                           /\ \__          
             \ \,\L\_\ \ \___     ___   __  __  __       \_\ \    ___     ____     /\_\ /\ \        ___    ___     ___\ \ ,_\   ___   
@@ -32,21 +32,21 @@ void printWelcome() {
 }
 
 void printCountdown() {
-    cout << system("clear") << R"(
+    cout << system("clear") << "\r" << R"(
                               _____ 
                              |___ / 
                                |_ \ 
                               ___) |
                              |____/ 
         
-    )" << sleep(1) << system("clear") << R"(
+    )" << sleep(1) << system("clear") << "\r" << R"(
                               ____  
                              |___ \ 
                                __) |
                               / __/ 
                              |_____|
 
-    )" << sleep(1) << system("clear") << R"(
+    )" << sleep(1) << system("clear") << "\r" << R"(
                               _ 
                              / |
                              | |
@@ -56,22 +56,35 @@ void printCountdown() {
     )" << RESET << sleep(1) << system("clear");
 }
 
-void printPoints(string name1, string name2, double p1, double p2) {
-    cout << name1 << p1 << endl << name2 << p2 << sleep(3) << system("clear");
+void printPoints(string name1, string name2, int p1, int p2) {
+    system("clear");
+    cout << name1 << ": " << p1 << endl;
+    cout << name2 << ": " << p2 << endl;
+    sleep(3);
+    system("clear");
 }
 
 void printEnd(string p) {
     cout << "Parabénsss!!!\n" << p << " ganhou o Jogo!";
     cout << MAGENTA << R"(
-                                ___                                                                                                             ___                              __             
-                               /\_ \                                                                                                          /'___`\                           /\ \__          
-             __  __    ___     \//\ \      __   __  __     __        _____      __     _ __    __          ___     __      ____     __       /\_\ /\ \        ___    ___     ___\ \ ,_\   ___   
-            /\ \/\ \  /'___\     \ \ \   /'__`\/\ \/\ \  /'__`\     /\ '__`\  /'__`\  /\`'__\/'__`\       /'___\ /'__`\   /',__\  /'__`\     \/_/// /__      /'___\ / __`\ /' _ `\ \ \/  / __`\ 
-            \ \ \_/ |/\ \__/      \_\ \_/\  __/\ \ \_/ |/\ \L\.\_   \ \ \L\ \/\ \L\.\_\ \ \//\ \L\.\_    /\ \__//\ \L\.\_/\__, `\/\ \L\.\_      // /_\ \    /\ \__//\ \L\ \/\ \/\ \ \ \_/\ \L\ \
-             \ \___/ \ \____\     /\____\ \____\\ \___/ \ \__/.\_\   \ \ ,__/\ \__/.\_\\ \_\\ \__/.\_\   \ \____\ \__/.\_\/\____/\ \__/.\_\    /\______/    \ \____\ \____/\ \_\ \_\ \__\ \____/
-              \/__/   \/____/     \/____/\/____/ \/__/   \/__/\/_/    \ \ \/  \/__/\/_/ \/_/ \/__/\/_/    \/____/\/__/\/_/\/___/  \/__/\/_/    \/_____/      \/____/\/___/  \/_/\/_/\/__/\/___/ 
-                                                                       \ \_\                                                                                                                    
-                                                                        \/_/                                                                                                                    
+                                ___                                                                   
+                               /\_ \                                                                  
+             __  __    ___     \//\ \      __   __  __     __        _____      __     _ __    __     
+            /\ \/\ \  /'___\     \ \ \   /'__`\/\ \/\ \  /'__`\     /\ '__`\  /'__`\  /\`'__\/'__`\   
+            \ \ \_/ |/\ \__/      \_\ \_/\  __/\ \ \_/ |/\ \L\.\_   \ \ \L\ \/\ \L\.\_\ \ \//\ \L\.\_ 
+             \ \___/ \ \____\     /\____\ \____\\ \___/ \ \__/.\_\   \ \ ,__/\ \__/.\_\\ \_\\ \__/.\_\
+              \/__/   \/____/     \/____/\/____/ \/__/   \/__/\/_/    \ \ \/  \/__/\/_/ \/_/ \/__/\/_/
+                                                                       \ \_\                          
+                                                                        \/_/                           
+
+                                                   ___                              __             
+                                                 /'___`\                           /\ \__          
+              ___     __      ____     __       /\_\ /\ \        ___    ___     ___\ \ ,_\   ___   
+             /'___\ /'__`\   /',__\  /'__`\     \/_/// /__      /'___\ / __`\ /' _ `\ \ \/  / __`\ 
+            /\ \__//\ \L\.\_/\__, `\/\ \L\.\_      // /_\ \    /\ \__//\ \L\ \/\ \/\ \ \ \_/\ \L\ \
+            \ \____\ \__/.\_\/\____/\ \__/.\_\    /\______/    \ \____\ \____/\ \_\ \_\ \__\ \____/
+             \/____/\/__/\/_/\/___/  \/__/\/_/    \/_____/      \/____/\/___/  \/_/\/_/\/__/\/___/ 
+                                                                                                                    
     )" << RESET;
 }
 
@@ -80,7 +93,7 @@ void printQuestion(Question q, long round_id) {
     
     vector<string> alternatives = q.getAlternatives();
 
-    cout << "[ Pergunta " << round_id << " ] - Nível: " << q.questionLevelDescription() << "\n";
+    cout << "\r[ Pergunta " << round_id << " ] - Nível: " << q.questionLevelDescription() << "\n";
     cout << q.getQuestion() << endl;
     for (int i = 0; i < alternatives.size(); ++i) 
         cout << BOLDYELLOW <<"(" << char('a' + i) << ") " << alternatives[i] << endl;

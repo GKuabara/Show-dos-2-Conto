@@ -1,8 +1,9 @@
-SRC = source/arts.cpp source/dataset.cpp source/game.cpp source/player.cpp source/question.cpp
+SRC = source/*.cpp
+#SRC = source/arts.cpp source/dataset.cpp source/game.cpp source/player.cpp source/question.cpp
 INCLUDE = includes/
 MAIN = ./main.cpp
 OUT =./game
-FLAGS = -g -pthread
+FLAGS = -g -pthread -lm
 VFLAGS = --show-leak-kinds=all --leak-check=full --track-origins=yes
 
 all:

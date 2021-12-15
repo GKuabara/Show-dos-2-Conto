@@ -37,7 +37,7 @@ using namespace std;
 void printAdvice();
 void printWelcome();
 void printCountdown();
-void printPoints(string name1, string name2, double p1, double p2);
+void printPoints(string name1, string name2, int p1, int p2);
 void printEnd(string p);
 
 void printQuestion(Question q, long round_id);

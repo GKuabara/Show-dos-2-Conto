@@ -26,8 +26,11 @@ class Game {
         void configureSettings();
         Player configurePlayer();
 
-        void executeGame();
+        void checkAns(Question cur_question);
+        //void getKeyRush(char player_key, char op);
+        //void readAnswer();
         void executeNewRound();
+        void executeGame();
         
         long getCurAward();
 };
