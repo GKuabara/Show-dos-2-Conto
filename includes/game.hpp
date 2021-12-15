@@ -19,6 +19,7 @@ class Game {
         long cur_round, cur_award, max_pontuation;
 
         string getQuestionLevel();
+        bool gameOver();
 
     public:
         Game(string dataset_file_path);

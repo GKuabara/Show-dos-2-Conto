@@ -46,23 +46,33 @@ void Game::executeNewRound() {
     printQuestion(cur_question, this->cur_round);
 }
 
+bool Game::gameOver() {
+    return (this->p2.getPoints() >= this->max_pontuation) or (this->p1.getPoints() >= this->max_pontuation); 
+}
+
 void Game::executeGame() {
     printAdvice();
 
     printWelcome();
     char enter;
     while (enter = std::getchar()) {
-        cout << "TECLA DIGITA: "  << enter << endl;
         if (enter == '\r' or enter == '\n') break;
     } 
-    // std::this_thread::sleep_for(std::chrono::milliseconds(7000));
 
     this->configureSettings();
 
     this->p1 = this->configurePlayer();
     this->p2 = this->configurePlayer();
 
-    this->executeNewRound();
+    while (!this->gameOver()) {
+        enter = '0';
+        this->executeNewRound();
+        cout << "ENTER VALUE: " << enter << endl;
+        std::this_thread::sleep_for(std::chrono::milliseconds(5000));
+        while (enter != '\r' and enter != '\n') {
+            enter = std::getchar();
+        } 
+    }
 }
 
 long Game::getCurAward() {
