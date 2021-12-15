@@ -19,10 +19,12 @@ class Question {
     
         Question(string question, int right_answer_id, vector<string> alternatives, int level);
         void shuffleAnswers();
-        string getQuestion();
-        vector<string> getAlternatives();
         bool validateAnswer(char alternatives);
-
+        
+        string getQuestion();
+        int getQuestionLevel();
+        string questionLevelDescription();
+        vector<string> getAlternatives();
 };
 
 #endif

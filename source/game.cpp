@@ -50,7 +50,12 @@ void Game::executeGame() {
     printAdvice();
 
     printWelcome();
-    std::this_thread::sleep_for(std::chrono::milliseconds(7000));
+    char enter;
+    while (enter = std::getchar()) {
+        cout << "TECLA DIGITA: "  << enter << endl;
+        if (enter == '\r' or enter == '\n') break;
+    } 
+    // std::this_thread::sleep_for(std::chrono::milliseconds(7000));
 
     this->configureSettings();
 

@@ -80,7 +80,7 @@ void printQuestion(Question q, long round_id) {
     
     vector<string> alternatives = q.getAlternatives();
 
-    cout << "[ Pergunta " << round_id << " ]\n";
+    cout << "[ Pergunta " << round_id << " ] - Nível: " << q.questionLevelDescription() << "\n";
     cout << q.getQuestion() << endl;
     for (int i = 0; i < alternatives.size(); ++i) 
         cout << BOLDYELLOW <<"(" << char('a' + i) << ") " << alternatives[i] << endl;

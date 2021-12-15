@@ -22,3 +22,13 @@ bool Question::validateAnswer(char alternative) {
     int idx = alternative - 97;
     return right_answer_id == idx;
 }
+
+int Question::getQuestionLevel() {
+    return this->level;
+}
+
+string Question::questionLevelDescription() {
+    if (this->level == 0) return "Fácil";
+    else if (this->level == 1) return "Médio";
+    return "Difícil";
+}
