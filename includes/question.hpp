@@ -10,7 +10,6 @@
 using namespace std;
 
 class Question {
-    // private:
     public:
         string question;
         int right_answer_id;
