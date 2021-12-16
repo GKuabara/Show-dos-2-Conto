@@ -45,4 +45,6 @@ void printQuestion(Question q, long round_id);
 void printSettings();
 void printPlayerSetting();
 
+void printQuitOption();
+
 #endif 
