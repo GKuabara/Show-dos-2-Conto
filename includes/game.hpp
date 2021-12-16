@@ -29,8 +29,6 @@ class Game {
 
         void executeNewRound();
         void executeGame();
-        
-        long getCurAward();
 };
 
 #endif

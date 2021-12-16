@@ -5,6 +5,10 @@ void printAdvice() {
     cout << system("clear") << "\rRecomendamos que jogue com o terminal em tela cheia para melhor experiência";
 }
 
+/**
+ * Função printWelcome:
+ * Imprime a tela inicial do jogo e as instruções
+ */
 void printWelcome() {
     cout << system("clear") << "\r" << R"(
              ____    __                                  __                          ___                              __             
@@ -56,6 +60,10 @@ void printCountdown() {
     )" << RESET << sleep(1) << system("clear");
 }
 
+/**
+ * Função printPoints:
+ *  Imprime as pontuações dos jogadores
+ */
 void printPoints(string name1, string name2, int p1, int p2) {
     system("clear");
     cout << ORANGE << R"(
@@ -74,6 +82,12 @@ void printPoints(string name1, string name2, int p1, int p2) {
     system("clear");
 }
 
+/**
+ * Função printEnd:
+ * Parâmetro:
+ *      - p: nome do vencedor
+ *  Imprime a tela final do jogo
+ */
 void printEnd(string p) {
     cout << "Parabénsss!!!\n" << p << " ganhou o Jogo!";
     cout << MAGENTA << R"(
@@ -98,6 +112,12 @@ void printEnd(string p) {
     )" << RESET;
 }
 
+/**
+ * Função printQuestion:
+ * Parâmetro:
+ *      - q: questão que será impressa
+ *      - round_id: rodada em questão
+ */
 void printQuestion(Question q, long round_id) {
     cout << system("clear");
     
