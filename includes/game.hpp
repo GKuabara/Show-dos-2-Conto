@@ -20,15 +20,13 @@ class Game {
 
         string getQuestionLevel();
         bool gameOver();
+        void configureSettings();
+        Player configurePlayer(char player_key);
+        void checkAns(Question cur_question);
 
     public:
         Game(string dataset_file_path);
-        void configureSettings();
-        Player configurePlayer();
 
-        void checkAns(Question cur_question);
-        //void getKeyRush(char player_key, char op);
-        //void readAnswer();
         void executeNewRound();
         void executeGame();
         
