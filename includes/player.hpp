@@ -18,11 +18,12 @@ class Player {
     public:
         Player();
         Player(string name, char player_key);
+        
         string getName();
         long getPoints();
-        void updatePoints(long points);
-        void updateKey(char player_key);
         char getKey();
+        
+        void updatePoints(long points);
 };
 
 #endif
