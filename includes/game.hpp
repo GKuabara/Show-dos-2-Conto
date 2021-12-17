@@ -22,6 +22,7 @@ class Game {
         bool gameOver();
         void configureSettings();
         Player configurePlayer(char player_key);
+        // void readAnswer();
         void checkAns();
 
     public:

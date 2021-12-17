@@ -165,16 +165,20 @@ void getKeyRush(char player_key, char op) {
 }
 
 /**
- * Função readAns:
- *  Recebe a resposta do usuário para que pergunta que aparece na tela.
+ * Função readAnswer: recebe a resposta do usuário para a pergunta que aparece na tela.
+ * Parâmetros: 
+ *      - p1_key: tecla do jogador 1
+ *      - p2_key: tecla do jogador 2
  */
-void readAnswer() {
+void readAnswer(char p1_key, char p2_key) {
     cin.clear();
 
     sem_wait(&sem);
     cout << "\n\rDigite a resposta:\t", ans = getchar();
     while (ans < 'a' or ans > 'd') {
-        cout << "\n\rResposta inválida, digite novamente: ", ans = getchar();
+        if (ans != p1_key and ans != p2_key)
+            cout << "\n\rResposta inválida, digite novamente: ";
+        ans = getchar();
         cout << endl;
     }
     sem_post(&sem);
@@ -211,7 +215,7 @@ void Game::executeNewRound() {
     else if (curr_player == 'j') cout << "\n\r" << this->p2.getName() << " responde!\n";
 
     // Jogador mais rápido responde
-    readAnswer();
+    readAnswer(p1.getKey(), p2.getKey());
 
     system("stty cooked");
     printPoints(this->p1.getName(), this->p2.getName(), this->p1.getPoints(), this->p2.getPoints());
@@ -242,8 +246,6 @@ void Game::executeGame() {
     // Inicializa o semáforo que irá proteger as regiões críticas
     sem_init(&sem, 0, 1);
     checkAns();
-
-    // Inicia o jogo
     while (!this->gameOver()) {
         this->executeNewRound();
     }
