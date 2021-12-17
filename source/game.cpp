@@ -20,9 +20,14 @@
 char curr_player = ';', ans = 'x';
 bool got_key = false;
 mutex input_mutex;
+
+/**
+ * @sem: semáforo que irá proteger as variáveis a seguir
+ * @right_ans_idx: cópia global da alternativa certa
+ * @question_level: cópia global da dificuldade da pergunta, usada para dar a pontuação
+ */
 sem_t sem;
 int right_ans_idx, question_level;
-bool should_start_checking = false;
 
 /**
  * Construtora da classe Game:
@@ -100,9 +105,7 @@ bool Game::gameOver() {
 void Game::checkAns() {
     thread ( [this] {
         while (true) {
-            if (!should_start_checking)
-                continue;
-
+            // Região crítica
             sem_wait(&sem);
             if (ans == 'x') {
                 sem_post(&sem);
@@ -163,7 +166,7 @@ void getKeyRush(char player_key, char op) {
 
 /**
  * Função readAns:
- *  Recebe a resposta do usuário para q pergunta que aparece na tela.
+ *  Recebe a resposta do usuário para que pergunta que aparece na tela.
  */
 void readAnswer() {
     cin.clear();
@@ -185,8 +188,8 @@ void Game::executeNewRound() {
     // Escolhe a nova pergunta
     Question cur_question = questions_data.getRandomQuestion(this->getQuestionLevel());
     
+    // Atualiza região crítica
     sem_wait(&sem);
-    should_start_checking = true;
     right_ans_idx = cur_question.getAnsIdx();
     question_level = cur_question.getQuestionLevel();
     sem_post(&sem);
@@ -214,7 +217,6 @@ void Game::executeNewRound() {
     printPoints(this->p1.getName(), this->p2.getName(), this->p1.getPoints(), this->p2.getPoints());
 
     // Reseta as variáveis globais para a nova rodada
-    ans = 'x';
     curr_player = ';';
     got_key = false;
 }
@@ -240,6 +242,8 @@ void Game::executeGame() {
     // Inicializa o semáforo que irá proteger as regiões críticas
     sem_init(&sem, 0, 1);
     checkAns();
+
+    // Inicia o jogo
     while (!this->gameOver()) {
         this->executeNewRound();
     }
