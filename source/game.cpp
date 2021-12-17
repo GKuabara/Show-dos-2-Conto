@@ -3,10 +3,12 @@
 // Victor Henrique da Silva - nUSP 11795759
 
 #include "game.hpp"
+#include "question.hpp"
 
 #include <chrono>
 #include <thread>
 #include <mutex>
+#include <semaphore.h>
 #include <math.h>
 
 /**
@@ -18,6 +20,9 @@
 char curr_player = ';', ans = 'x';
 bool got_key = false;
 mutex input_mutex;
+sem_t sem;
+int right_ans_idx, question_level;
+bool should_start_checking = false;
 
 /**
  * Construtora da classe Game:
@@ -89,26 +94,39 @@ bool Game::gameOver() {
 
 /**
  * Função checkAns:
- *  Verifica se a resposta inserida pelo jogador está certa e atualiza sua pontuação
+ *  Cria uma thread que fica verificando se a resposta foi inserida e, caso tenha sido, se está certa ou não.
+ *  Atualiza as pontuações dos jogadores também. 
  */
-void Game::checkAns(Question cur_question) {
-    if (cur_question.validateAnswer(ans)) {
-        cout << endl << "\rResposta correta!!! :D" << endl;
-        cout << "\rMais " << (pow(2, cur_question.getQuestionLevel())) << " pontos para o jogador "
-        << (curr_player == this->p1.getKey() ? this->p1.getName() : this->p2.getName()) << endl << '\r';
-    
-        if (curr_player == this->p1.getKey()) this->p1.updatePoints(pow(2, cur_question.getQuestionLevel()));
-        else this->p2.updatePoints(pow(2, cur_question.getQuestionLevel()));
-    
-    } else {
-        cout << endl << "\rResposta incorreta!!! :(" << endl << '\n';
+void Game::checkAns() {
+    thread ( [this] {
+        while (true) {
+            if (!should_start_checking)
+                continue;
 
-        if (curr_player == this->p1.getKey()) this->p1.updatePoints(-1);
-        else this->p2.updatePoints(-1);
-    }
+            sem_wait(&sem);
+            if (ans == 'x') {
+                sem_post(&sem);
+                continue;
+            } else if ((ans - 'a') == right_ans_idx) {
+                cout << endl << "\rResposta correta!!! :D" << endl;
+                cout << "\rMais " << (pow(2, question_level)) << " pontos para o jogador "
+                << (curr_player == this->p1.getKey() ? this->p1.getName() : this->p2.getName()) << endl << '\r';
+            
+                if (curr_player == this->p1.getKey()) this->p1.updatePoints(pow(2, question_level));
+                else this->p2.updatePoints(pow(2, question_level));
+            
+            } else {
+                cout << endl << "\rResposta incorreta!!! :(" << endl << '\n';
 
-    std::this_thread::sleep_for(std::chrono::milliseconds(1500));
-    return;
+                if (curr_player == this->p1.getKey()) this->p1.updatePoints(-1);
+                else this->p2.updatePoints(-1);
+            }
+
+            ans = 'x';
+            std::this_thread::sleep_for(std::chrono::milliseconds(1500));
+            sem_post(&sem);
+        }
+    }).detach();
 }
 
 /**
@@ -150,11 +168,13 @@ void getKeyRush(char player_key, char op) {
 void readAnswer() {
     cin.clear();
 
+    sem_wait(&sem);
     cout << "\n\rDigite a resposta:\t", ans = getchar();
     while (ans < 'a' or ans > 'd') {
         cout << "\n\rResposta inválida, digite novamente: ", ans = getchar();
         cout << endl;
     }
+    sem_post(&sem);
 }
 
 /**
@@ -164,10 +184,16 @@ void readAnswer() {
 void Game::executeNewRound() {
     // Escolhe a nova pergunta
     Question cur_question = questions_data.getRandomQuestion(this->getQuestionLevel());
+    
+    sem_wait(&sem);
+    should_start_checking = true;
+    right_ans_idx = cur_question.getAnsIdx();
+    question_level = cur_question.getQuestionLevel();
+    sem_post(&sem);
 
     // Imprime a contagem regressiva e, depois, a pergunta escolhida
     printCountdown();
-    printQuestion(cur_question, this->cur_round);
+    printQuestion(cur_question, this->cur_round++);
     cout << "\n\r[f - Jogador 1] vs [j - Jogador 2]: \t"; 
 
     // Troca o modo do terminal para que os inputs sejam processados sem esperar pelo "enter" (não passa por processamento do SO)
@@ -182,11 +208,8 @@ void Game::executeNewRound() {
     else if (curr_player == 'j') cout << "\n\r" << this->p2.getName() << " responde!\n";
 
     // Jogador mais rápido responde
-    thread answer(readAnswer);
-    answer.join();
+    readAnswer();
 
-    // Verifica a resposta
-    Game::checkAns(cur_question);
     system("stty cooked");
     printPoints(this->p1.getName(), this->p2.getName(), this->p1.getPoints(), this->p2.getPoints());
 
@@ -214,6 +237,9 @@ void Game::executeGame() {
     this->p1 = this->configurePlayer('f');
     this->p2 = this->configurePlayer('j');
 
+    // Inicializa o semáforo que irá proteger as regiões críticas
+    sem_init(&sem, 0, 1);
+    checkAns();
     while (!this->gameOver()) {
         this->executeNewRound();
     }

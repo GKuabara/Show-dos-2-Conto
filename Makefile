@@ -6,6 +6,10 @@ OUT =./game
 FLAGS = -g -pthread -lm
 VFLAGS = --show-leak-kinds=all --leak-check=full --track-origins=yes
 
+do_run: 
+	@make all 
+	@make run
+
 all:
 	@g++ $(MAIN) $(SRC) -o $(OUT) -I $(INCLUDE) $(FLAGS)
 run:

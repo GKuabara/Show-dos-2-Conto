@@ -22,7 +22,7 @@ class Game {
         bool gameOver();
         void configureSettings();
         Player configurePlayer(char player_key);
-        void checkAns(Question cur_question);
+        void checkAns();
 
     public:
         Game(string dataset_file_path);
