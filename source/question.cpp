@@ -31,6 +31,14 @@ string Question::getQuestion() {
 }
 
 /**
+ * Função getAnsId:
+ * Retorno: int com índice da alternativa correta
+ */
+int Question::getAnsIdx() {
+    return right_answer_id;
+}
+
+/**
  * Função getter getAlternatives
  * - Retorno: vetor que contém todas as 4 alternativas
  */
