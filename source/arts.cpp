@@ -21,15 +21,15 @@ void printWelcome() {
 
     )" << PINK << R"(
                 Seja Bem Vinde ao nosso jogo, no qual acertando as questões,
-                progressivamente ganha dinheiro (pouco... bem pouco),
-                mas o suficiente para garantir a sua próxima refeição no bandeco ;)
+                progressivamente ganha pontos.
+                No final, o ganhador leva pra casa um bandecoin (2 conto) :)
 
-                O jogo funciona da sequinte maneira:
+                O jogo funciona da seguinte maneira:
                 A cada rodada há uma contagem regressiva para mostrar uma questão na tela,
-                e cada jogador deve clicar na sua tecla correspondente a alternativa para responder a questão antes do outro jogador.
-                Então é revelada a resposta correta e se o jogador que teclou primeiro acertou,
-                caso tiver acertado, o mesmo ganha pontos, se errar, perde pontos.
-                Assim, repete-se a rodada até que um dos jogadores atinja uma determinada pontuação.
+                e cada jogador deve clicar na sua tecla correspondente para ter direito a responder a questão.
+                O jogador que clicar antes, deve digitar a alternativa (a, b, c ou d) que acha que é a resposta correta.
+                Caso tenha acertado, o mesmo ganha pontos, se errar, perderá pontos.
+                Assim, segue novas rodadas até que um dos jogadores atinja uma determinada pontuação.
 
                 Aperte ENTER para iniciar o jogo!
     )" << RESET;
